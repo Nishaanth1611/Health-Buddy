@@ -1,0 +1,5258 @@
+{
+  "intents": [],
+  "entities": [
+    {
+      "entity": "actionOption",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Bye",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Diagnose again",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "issue again",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "service list",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "gender",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Female",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Male",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "issue",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Abdominal hernia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Abortion",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Abscess of the tonsils",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Absence seizure",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Accident injury",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Accident-related bone fracture of ankle",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Accident-related bone fracture of arm",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Accident-related bone fracture of elbow",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Accident-related bone fracture of finger",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Accident-related bone fracture of foot",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Accident-related bone fracture of hand",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Accident-related bone fracture of hip",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Accident-related bone fracture of knee",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Accident-related bone fracture of leg",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Accident-related bone fracture of shoulder",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Accident-related bone fracture of toe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Accident-related bone fracture of wrist",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Accumulation of fluid in the scrotum",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Achilles tendon tear",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Acne",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Acute inflammation of lung",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Age-related issues",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alcohol consumption",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Allergy to bee or wasp venom",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alzheimer type dementia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Anal abscess",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Anal venous thrombosis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Aneurysm of the main artery",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ankle injury",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Anorexia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Arthrosis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Auditory vertigo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Autoimmune disease",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Back pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bacterial skin infection",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bad sleeping habits",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Baker's cyst",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bekhterev's disease",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Benign bone tumor",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Benign muscle cramps",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Benign muscle twitching",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Benign proliferation of uterine lining tissue",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Benign prostate enlargement",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Benign skin tag",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Benign tumor of the adrenal medulla",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Black skin cancer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bladder cancer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bleeding disorder",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Blistering disease",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bloated belly",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Blood poisoning",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Blood vessel expansion around anus",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bone pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bowel incontinence",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bowel obstruction",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Brain damage caused by metabolic disorders",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Brain tumor",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Breakbone fever",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Breast cancer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Broken rib",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bruise",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bulimia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bunion",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Burn",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Caffeine withdrawal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Caries",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Change in the mammary glands",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chemical eye burn",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chickenpox",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chicken skin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chlamydia infection",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chronic inflammatory bowel disease of colon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chronic muscular pain disorder",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chronic obstructive lung disease",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chronic pain disorder",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chronic tiredness syndrome",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chronic vein insufficiency",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Circular hair loss",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cirrhosis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Clot in a vein",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Clouding of the eye lens",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cluster headache",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Coccyx fistula",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cold",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Colon cancer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Concussion",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Condition causing overproduction of skin cells",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Confusional state",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Congenital eyelid levator weakness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Contact eczema",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Corneal distorsion",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Coronary heart disease",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Crohn's disease",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Curvature of the spine",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Damage to the eye muscle nerves",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Deformity of the hip joint",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Deformity of the knee joint",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Depression",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dermatitis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Detached retina",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Diabetes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Diabetic delayed gastric emptying",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Diaphragmatic hernia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Difficult dentition",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Diffuse hair loss",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Disease of the motor neurons",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Diseases of the heart valves",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dislocation of kneecap",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Disorder causing imbalance of water in the body",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Disorders of lipid metabolism",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dissection of the aorta",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Disseminated sclerosis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Disturbed testicular descent",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Diverticular disease",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Drug side effect",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dry eye",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dry nasal mucosa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dry skin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dupuytren's contracture",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dysfunction of the esophagus",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ear injury with foreign body",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Earwax blockage",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Eating disorder",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Enlarged and twisted veins",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Enlarged lymph nodes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Enlarged veins of the esophagus",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Epileptic seizures",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Erection problems",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Esophageal cancer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Esophageal corrosion",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Eversion of the eyelid",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Excessive feeling of fear",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Excessive noise exposure",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Excessive overweight",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Extreme tendency to fall asleep",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Eye allergy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Eyelid inflammation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Facial neuralgia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Facial paralysis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fainting",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fainting after standing up",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Familial tremor",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Far-sightedness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fatigue fracture of the metatarsal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fatty tumor",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Femoral neck fracture",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Flu",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fluid accumulation in the abdomen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fluid accumulation in the chest cavity",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fluid-filled sacs in the kidney",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fluid loss",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Flu-related rhinitis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Food allergy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Food intolerance",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Food poisoning",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Foreign object in the airways",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Foreign object in the ear",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Foreign object in the eye",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Foreign object in the nose",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Foreign object in the throat",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Frostbite",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fungal infection",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gait disorder due to old age",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gall stones",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ganglion",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Genital warts",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "German measles",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Giant cell arteritis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gilbert's disease",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gingivostomatitis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gluten intolerance",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Golfer's elbow",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gout",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Green cataract",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Grinding of teeth",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hardening of the walls of arteries",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hay fever",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Headache",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hearing loss due to old age",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Heart attack",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Heart failure",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Heart muscle disease",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Heart racing",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Herpes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hiccup",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "High blood pressure",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "High blood pressure crisis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hip dysplasia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hip entrapment",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hirsuties coronae glandis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "HIV",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hives",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hump",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Huntington's disease",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hypercortisolism",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hypersensitivity reaction",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hyperventilation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hypofunction of pituitary gland",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Imbalance of body minerals",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inadequate closure of the aortic valve",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Infection caused by corynebacterium diphtheriae",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Infection of kidney pelvis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Infection of upper airways",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation in the anal region",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of a diverticulum",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of gingiva",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of hair follicles",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of heart muscle",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of inner ear labyrinth",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of outer tissue layer around bone",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of paranasal sinuses",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of the anal glands",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of the appendix",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of the bone marrow",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of the brain covering membranes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of the breast tissue",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of the bronchi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of the bursae",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of the cornea",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of the endocardium",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of the epididymis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of the external ear canal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of the liver",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of the nail skin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of the nose and throat",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of the pancreas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of the parotid gland",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of the pericardium",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of the peritoneum",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of the pleura",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of the prostate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of the stomach",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of the tendon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of the testes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of the tonsils",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of the urethra",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of vaginal mucosa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation of veins",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammation to the joints",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inflammatory disease of the airways",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ingrown nail",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Injury of the eye",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Intestinal polyp",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Involuntary urination",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inward folding of eyelid",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Iron deficiency",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Iron storage disease",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Irregular heart rhythm in atria",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Irritation of the sciatic nerve",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Itchy skin nodule",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jaw fracture",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Joint infection",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Keloidal scar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Kidney inflammation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Kidney stones",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Kissing disease",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Knee inflammation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Knee ligament injury",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lack of blood",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lack of supply of thyroid hormones",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lack of vitamin B12",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lack of vitamin D",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lacrimal gland inflammation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lactase deficiency",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Landry's paralysis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lichenoid lesion",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Listeria infection",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lockjaw",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Long-sightedness due to old age",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Loose watery stools",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Low back pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Low blood pressure",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Low blood sugar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lung bleeding",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lung cancer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lung collapse",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lupus",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lyme disease",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lymphatic obstruction",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lymph cancer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Macular degeneration",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Malignant bone tumor",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Malignant prostate cancer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Marsh fever",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Measles",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mediterranean anemia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Meningeal tumor",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Menopause",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Menstrual problems",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mental illness with euphoria and hyperactivity",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Middle ear infection",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mitral regurgitation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mole",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Motion sickness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Muscle soreness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Muscular weakness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Myasthenia gravis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nail growth disorder",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Narrowing of foreskin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Narrowing of spinal canals of the thoracic or lumbar spine",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Narrowing of the aortic valve",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Narrowing of the spinal canal in the neck",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nasal polyp",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Neoplasia of the upper digestive tract",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nerve compression in the wrist",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nerve pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nerve-related bladder dysfunction",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nerve root irritation of the cervical spine",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nerve root irritation of the lumbar spine",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nosebleed",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Obsessive-compulsive disorder",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Obstruction of a pulmonary artery",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Outpouching of the esophagus",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Overactivity of the parathyroid glands",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Overproduction of thyroid hormones",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pancreas insufficiency",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pelvic fracture",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Peripheral artery disease",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pink eye",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pleural tumor",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Poisoning",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Positional vertigo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pregnancy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pregnancy loss",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pregnancy-related problems",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pressure on the brain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Problems with defecation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Progressive muscle weakness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Psychogenic issues",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rapid swelling of the skin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Raynaud's disease",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Recurring itchy inflammation of the skin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Redness causing skin condition",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Reflex sympathetic dystrophy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Reflux disease",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Renal failure",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Restless limb syndrome",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rheumatic fever",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rheumatic pain in many muscles",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rheumatism",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ringing in the ears",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Salivary gland inflammation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Salivary gland stone",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Scalp infection",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Scarlet fever",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Scheuermann's disease",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "School sores",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sebaceous cyst",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Seborrheic eczema",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Senility",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sexually transmitted diseases",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Shaking palsy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Shingles",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Shock",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Short-sightedness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Shoulder dislocation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Shoulder girdle compression syndrome",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sick headache",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Simultaneous malfunction of peripheral nerves",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Singer's nodules",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Skin tags of anus",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sleep apnea",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sleeping disorder",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Slipped disc",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Small sore in mouth",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Smoking",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Spastic colon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sperm cyst",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Spondylosis of cervical spine",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sprained ankle",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Squint",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "State of stress",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Stomach bleeding",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Stomach cancer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Stomach flu",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Stomach irritation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Stomach ulcer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Strain of the back muscles",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Strain of the neck muscles",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Strain of the regional supporting tissue",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Stress disorder after trauma",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "stroke",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Stye",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Subconjunctival bleeding",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sudden hearing loss",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sudden loss of vision",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sunburn",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sun-related keratosis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Superficial form of cellulitis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Suspicious change of skin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Swelling of the thyroid gland",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Syphilis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Systemic disorder with granulomatous inflammation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tarsal tunnel syndrome",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tear in the skin of anus",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tear of the biceps tendon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Temporomandibular joint dysfunction",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tendon sheath inflammation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tendon tear in shoulder",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tennis elbow",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Testicular cancer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Thinning bones",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Thyroid eye disease",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tick-borne encephalitis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tooth abscess",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Torsion of testes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tourette's syndrome",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Toxoplasmosis infection",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Trigger finger",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tubal and ovarian inflammation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tubal pregnancy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tuberculosis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ulcer of the skin of the eyelid",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ulnar nerve entrapment",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Urinary tract infection",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Urinary tract stones",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Vascular inflammation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Vertebral fracture",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Vestibular failure",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Vocal cord paralysis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Voice overuse",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Water accumulation in the lungs",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Water accumulation in the tissues",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Whiplash",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "White skin cancer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Whooping cough",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Yeast infection",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Yellow plague",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Yellow skin bumps",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "makeDiagnosis",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Make a diagnosis now",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "serviceOption",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "diagnosis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "issue",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "symptoms",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Abdominal guarding",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Abdominal pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Abdominal pain associated with menstruation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Absence of a pulse",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Aggressiveness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Agitation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ankle deformity",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ankle swelling",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Anxiety",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Arm pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Arm swelling",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Back deformity",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Back pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Blackening of vision",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Blackhead",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Black stools",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bleeding from vagina",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bleeding in the conjunctiva of the eye",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bloated feeling in the stomach",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Blood in stool",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bloody cough",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Blue colored skin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Blue spot on skin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Blurred vision",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bold area among hair on the head",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bone fracture",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Breathing-related pains",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Brittleness of nails",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bulging abdominal wall",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Burning eyes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Burning in the throat",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Burning nose",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Burning sensation when urinating",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Changes in the nails",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cheek swelling",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chest pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chest tightness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chills",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Coarsening of the skin structure",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cold feet",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cold hands",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cold sweats",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cough",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cough with sputum",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cramps",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cravings",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Crusting",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Curvature of the spine",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dark urine",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Decreased urine stream",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Delayed start to urination",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Diarrhea",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Difficult defecation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Difficulty in finding words",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Difficulty in speaking",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Difficulty in swallowing",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Difficulty to concentrate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Difficulty to learn",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Difficulty with gait",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Discoloration of nails",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Disorientation regarding time or place",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Distended abdomen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dizziness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Double vision",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Double vision, acute-onset",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dribbling after urination",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Drooping eyelid",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Drowsiness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dry eyes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dry mouth",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dry skin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Earache",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Early satiety",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Elbow pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Enlarged calf",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Eye blinking",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Eyelids sticking together",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Eyelid swelling",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Eye pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Eye redness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Face pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Facial paralysis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Facial swelling",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fast, deepened breathing",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fatty defecation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Feeling faint",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Feeling ill",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Feeling of foreign body in the eye",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Feeling of pressure in the ear",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Feeling of residual urine",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Feeling of tension in the legs",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fever",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Finger deformity",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Finger pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Finger swelling",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Flaking skin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Flaking skin on the head",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Flatulence",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Foot pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Foot swelling",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Forgetfulness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Formation of blisters on a skin area",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Foul smelling defecation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Frequent urination",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Genital warts",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hair loss",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hallucination",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Halo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hand pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hand swelling",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hard defecation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hardening of the skin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Headache",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hearing loss",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Heartburn",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Heart murmur",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hiccups",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hip deformity",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hip pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hoarseness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hot flushes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Immobilization",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Impaired balance",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Impaired hearing",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Impaired light-dark adaptation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Impairment of male potency",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Incomplete defecation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Increased appetite",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Increased drive",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Increased salivation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Increased thirst",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Increased touch sensitivity",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Increased urine quantity",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Involuntary movements",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Irregular heartbeat",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Irregular mole",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Itching eyes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Itching in the ear",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Itching in the mouth or throat",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Itching in the nose",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Itching of skin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Itching of the anus",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Itching on head",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Itching or burning in the genital area",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Joint effusion",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Joint instability",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Joint pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Joint redness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Joint swelling",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Joylessness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Knee deformity",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Knee pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Leg cramps",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Leg pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Leg swelling",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Leg ulcer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Less than 3 defecations per week",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Limited mobility of the ankle",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Limited mobility of the back",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Limited mobility of the fingers",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Limited mobility of the hip",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Limited mobility of the leg",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lip swelling",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lockjaw",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Loss of eye lashes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lower abdominal pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lower-back pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lump in the breast",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Malposition of the testicles",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Marked veins",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Memory gap",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Menstruation disorder",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Missed period",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Moist and softened skin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mood swings",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Morning stiffness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mouth pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mouth ulcers",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Muscle pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Muscle stiffness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Muscle weakness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Muscular atrophy in the leg",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Muscular atrophy of the arm",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Muscular weakness in the arm",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Muscular weakness in the leg",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nausea",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Neck pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Neck stiffness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nervousness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Night cough",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Night sweats",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Non-healing skin wound",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nosebleed",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Numbness in the arm",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Numbness in the leg",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Numbness of the hands",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Oversensitivity to light",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Overweight",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Painful defecation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Painful urination",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pain in the bones",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pain in the calves",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pain in the limbs",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pain of the anus",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pain on swallowing",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pain radiating to the arm",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pain radiating to the leg",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pain when chewing",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pallor",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Palpitations",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Paralysis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Physical inactivity",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Problems with the sense of touch in the face",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Problems with the sense of touch in the feet",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Protrusion of the eyes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Purulent discharge from the urethra",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Purulent discharge from the vagina",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rebound tenderness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Reduced appetite",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ringing in the ear",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Runny nose",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sadness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Scalp redness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Scar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sensitivity to cold",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sensitivity to glare",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sensitivity to noise",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Shiny red tongue",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Shortness of breath",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Side pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Skin lesion",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Skin nodules",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Skin rash",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Skin redness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Skin thickening",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Skin wheal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sleepiness with spontaneous falling asleep",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sleeplessness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sneezing",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sore throat",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sputum",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Stomach burning",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Stress-related leg pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Stuffy nose",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sweating",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Swelling in the genital area",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Swelling of the testicles",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Swollen glands in the armpit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Swollen glands in the groin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Swollen glands in the neck",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tears",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Testicular pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tic",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tingling",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tiredness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Toe deformity",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Toe swelling",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tongue burning",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tongue swelling",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Toothache",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tremor at rest",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tremor on movement",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Trouble understanding speech",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Unconsciousness, short",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Uncontrolled defecation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Underweight",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Urge to urinate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Urination during the night",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Vision impairment",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Vision impairment for far objects",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Vision impairment for near objects",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Visual field loss",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Vomiting",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Vomiting blood",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Weakness or numbness on right or left side of body",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Weight gain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Weight loss",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Wheezing",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Wound",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Yellow colored skin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Yellowish discoloration of the white part of the eye",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "yearOfBirth",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "1920",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1921",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1922",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1923",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1924",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1925",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1926",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1927",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1928",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1929",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1930",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1931",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1932",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1933",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1934",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1935",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1936",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1937",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1938",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1939",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1940",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1941",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1942",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1943",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1944",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1945",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1946",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1947",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1948",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1949",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1950",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1951",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1952",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1953",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1954",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1955",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1956",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1957",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1958",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1959",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1960",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1961",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1962",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1963",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1964",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1965",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1966",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1967",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1968",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1969",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1970",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1971",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1972",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1973",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1974",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1975",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1976",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1977",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1978",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1979",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1980",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1981",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1982",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1983",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1984",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1985",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1986",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1987",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1988",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1989",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1990",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1991",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1992",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1993",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1994",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1995",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1996",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1997",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1998",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1999",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2000",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2001",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2002",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2003",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2004",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2005",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2006",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2007",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2008",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2009",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2010",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2011",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2012",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2013",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2014",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2015",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2016",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2017",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2018",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2019",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2020",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "https://eu-gb.functions.appdomain.cloud/api/v1/web/talents.csa.rep%40gmail.com_dev/default/API%20Callout.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_5_1615975899851",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, I couldn't understand the symptom"
+              },
+              {
+                "text": "Please enter the symptom again"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_8_1615978744577",
+      "event_name": "nomatch",
+      "dialog_node": "handler_10_1615979078525",
+      "previous_sibling": "handler_5_1615978885214"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1615979168103",
+      "context": {
+        "symptoms3": "@symptoms"
+      },
+      "conditions": "@symptoms",
+      "event_name": "input",
+      "dialog_node": "handler_10_1615979168103"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Symptom 1: $symptoms1"
+              },
+              {
+                "text": "Symptom 2: $symptoms2"
+              },
+              {
+                "text": "Symptom 3: $symptoms3"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "slot_3_1615979168103",
+      "event_name": "filled",
+      "dialog_node": "handler_10_1615979233487",
+      "previous_sibling": "handler_8_1615979168103"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, I couldn't understand"
+              },
+              {
+                "text": "Please enter the gender"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Gender",
+            "options": [
+              {
+                "label": "Male",
+                "value": {
+                  "input": {
+                    "text": "Male"
+                  }
+                }
+              },
+              {
+                "label": "Female",
+                "value": {
+                  "input": {
+                    "text": "Female"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_5_1615976645306",
+      "conditions": "",
+      "event_name": "nomatch",
+      "dialog_node": "handler_1_1615976889189",
+      "previous_sibling": "handler_3_1615976645315"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please enter the name of the health issue."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_7_1615969737539",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1615969737554",
+      "previous_sibling": "handler_9_1615969737554"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please choose your gender"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Gender",
+            "options": [
+              {
+                "label": "Male",
+                "value": {
+                  "input": {
+                    "text": "Male"
+                  }
+                }
+              },
+              {
+                "label": "Female",
+                "value": {
+                  "input": {
+                    "text": "Female"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_5_1615976645306",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1615976645315",
+      "previous_sibling": "handler_6_1615976645315"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1615977881612",
+      "context": {
+        "symptoms1": "@symptoms"
+      },
+      "conditions": "@symptoms",
+      "event_name": "input",
+      "dialog_node": "handler_3_1615977881613"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Symptom 1: $symptoms1"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Action list",
+            "options": [
+              {
+                "label": "Make a diagnosis by symptom 1",
+                "value": {
+                  "input": {
+                    "text": "Make a diagnosis now"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_9_1615977881612",
+      "conditions": "$symptoms2==null",
+      "event_name": "filled",
+      "dialog_node": "handler_3_1615978329112",
+      "previous_sibling": "handler_9_1615978096229"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, I couldn't understand. Please enter the name of health issue again"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_7_1615969737539",
+      "event_name": "nomatch",
+      "dialog_node": "handler_4_1615969915274",
+      "previous_sibling": "handler_2_1615969737554"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "node_10_1615976557581",
+      "next_step": {
+        "behavior": "skip_all_slots"
+      },
+      "conditions": "@makeDiagnosis:(Make a diagnosis now)",
+      "event_name": "generic",
+      "dialog_node": "handler_4_1615978556347",
+      "previous_sibling": "response_4_1615979512816"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Symptom 1: $symptoms1 "
+              },
+              {
+                "text": "Symptom 2: $symptoms2 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Action list",
+            "options": [
+              {
+                "label": "Make a diagnosis by symptom 1 and 2",
+                "value": {
+                  "input": {
+                    "text": "Make a diagnosis now"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_8_1615978744577",
+      "conditions": "$symptoms3==null",
+      "event_name": "filled",
+      "dialog_node": "handler_5_1615978885214",
+      "previous_sibling": "handler_8_1615978744577"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1615976645306",
+      "context": {
+        "gender": "@gender"
+      },
+      "conditions": "@gender",
+      "event_name": "input",
+      "dialog_node": "handler_6_1615976645315"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1615977383617",
+      "context": {
+        "yearOfBirth": "@yearOfBirth"
+      },
+      "conditions": "@yearOfBirth",
+      "event_name": "input",
+      "dialog_node": "handler_6_1615977383618"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please enter the symptoms"
+              },
+              {
+                "text": "Use a comma to separate multiple symptoms"
+              },
+              {
+                "text": "Example: Back Pain, Headache, Fever"
+              },
+              {
+                "text": "You can enter up to 3 symptoms"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "slot_9_1615977881612",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1615977881613",
+      "previous_sibling": "handler_3_1615977881613"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1615978744577",
+      "context": {
+        "symptoms2": "@symptoms"
+      },
+      "conditions": "@symptoms",
+      "event_name": "input",
+      "dialog_node": "handler_6_1615978744577"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, I couldn't understand the symptom"
+              },
+              {
+                "text": "Please enter the symptom again"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "slot_3_1615979168103",
+      "event_name": "nomatch",
+      "dialog_node": "handler_6_1615979321698",
+      "previous_sibling": "handler_10_1615979233487"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please enter your Year of Birth"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_6_1615977383617",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1615977383618",
+      "previous_sibling": "handler_6_1615977383618"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, I couldn't understand "
+              },
+              {
+                "text": "Please enter your Year of Birth"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "slot_6_1615977383617",
+      "event_name": "nomatch",
+      "dialog_node": "handler_8_1615977441898",
+      "previous_sibling": "handler_8_1615977383618"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Or enter the second symptom."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_8_1615978744577",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1615978744577",
+      "previous_sibling": "handler_6_1615978744577"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Or enter the third symptom"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_3_1615979168103",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1615979168103",
+      "previous_sibling": "handler_10_1615979168103"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1615969737539",
+      "context": {
+        "issue": "@issue"
+      },
+      "conditions": "@issue",
+      "event_name": "input",
+      "dialog_node": "handler_9_1615969737554"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, I couldn't understand the symptoms"
+              },
+              {
+                "text": "Please enter the symptoms again"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "slot_9_1615977881612",
+      "event_name": "nomatch",
+      "dialog_node": "handler_9_1615978096229",
+      "previous_sibling": "handler_6_1615977881613"
+    },
+    {
+      "type": "standard",
+      "title": "Service list",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please choose the service."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Service List",
+            "options": [
+              {
+                "label": "Make a diagnosis",
+                "value": {
+                  "input": {
+                    "text": "diagnosis"
+                  }
+                }
+              },
+              {
+                "label": "Get information about the health issue.",
+                "value": {
+                  "input": {
+                    "text": "issue"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1615974720601",
+      "conditions": "true",
+      "dialog_node": "node_10_1615969429606"
+    },
+    {
+      "type": "frame",
+      "title": "Make a diagnosis by symptoms",
+      "parent": "node_10_1615969429606",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@serviceOption:diagnosis",
+      "dialog_node": "node_10_1615976557581",
+      "previous_sibling": "node_3_1615969443212"
+    },
+    {
+      "type": "frame",
+      "title": "Health Issue Info",
+      "parent": "node_10_1615969429606",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "issue": "$issue",
+            "option": 1
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@serviceOption:issue",
+      "dialog_node": "node_3_1615969443212"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello there,"
+              },
+              {
+                "text": "I'm a Healthy Buddy"
+              },
+              {
+                "text": "I'm your Healthcare Chatbot"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "welcome",
+      "dialog_node": "node_4_1615974720601"
+    },
+    {
+      "type": "standard",
+      "title": "API Call",
+      "parent": "node_10_1615976557581",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "yob": "$yearOfBirth",
+            "gender": "$gender",
+            "option": 2,
+            "symptom_1": "$symptoms1",
+            "symptom_2": "$symptoms2",
+            "symptom_3": "$symptoms3"
+          },
+          "result_variable": "webhook_result_2"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@makeDiagnosis:(Make a diagnosis now) || $symptoms3",
+      "dialog_node": "node_4_1615979724630"
+    },
+    {
+      "type": "standard",
+      "title": "Bye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for using me"
+              },
+              {
+                "text": "Have a great day"
+              },
+              {
+                "text": "I'm eagerly waiting for you to chat with me."
+              },
+              {
+                "text": "Take care, Bye-bye..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "@actionOption:Bye",
+      "dialog_node": "node_5_1615975899851",
+      "previous_sibling": "node_4_1615974720601"
+    },
+    {
+      "type": "standard",
+      "title": "Action",
+      "parent": "node_4_1615979724630",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@actionOption",
+      "dialog_node": "node_6_1615982509779"
+    },
+    {
+      "type": "standard",
+      "title": "Action",
+      "parent": "node_3_1615969443212",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@actionOption",
+      "dialog_node": "node_8_1615974158351"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1615974158351",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1615975899851"
+      },
+      "conditions": "@actionOption:Bye",
+      "dialog_node": "response_10_1615976091543",
+      "previous_sibling": "response_1_1615975687339"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<? $gender=null ?><? $yearOfBirth=null?><? $symptoms1=null ?>                        <? $symptoms2=null ?><? $symptoms3=null ?>"
+              },
+              {
+                "text": "Prompting you to make a diagnosis again."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1615982509779",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1615976557581"
+      },
+      "conditions": "@actionOption:(Diagnose again)",
+      "dialog_node": "response_10_1615983107156"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<? $issue=null ?>"
+              },
+              {
+                "text": "Prompting you to enter another issue name"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1615974158351",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1615969443212"
+      },
+      "conditions": "@actionOption:(issue again)",
+      "dialog_node": "response_1_1615975687339",
+      "previous_sibling": "response_6_1615974243824"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<? $gender=null ?><? $yearOfBirth=null?><? $symptoms1=null ?>                        <? $symptoms2=null ?><? $symptoms3=null ?>"
+              },
+              {
+                "text": "Prompting you to choose the service list"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1615982509779",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1615969429606"
+      },
+      "conditions": "@actionOption:(service list)",
+      "dialog_node": "response_1_1615984250770",
+      "previous_sibling": "response_2_1615984141969"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1615982509779",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1615975899851"
+      },
+      "conditions": "@actionOption:Bye",
+      "dialog_node": "response_2_1615984141969",
+      "previous_sibling": "response_10_1615983107156"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Diagnosing....."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1615976557581",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1615979724630"
+      },
+      "conditions": "@makeDiagnosis:(Make a diagnosis now) || $symptoms3",
+      "dialog_node": "response_4_1615979512816",
+      "previous_sibling": "node_4_1615979724630"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I have analyzed the given symptoms with my health issue database and came up with some health issues predictions that you might have,"
+              },
+              {
+                "text": "$webhook_result_2.Message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Action list",
+            "options": [
+              {
+                "label": "Make a diagnosis again",
+                "value": {
+                  "input": {
+                    "text": "Diagnose again"
+                  }
+                }
+              },
+              {
+                "label": "Go to the service list ",
+                "value": {
+                  "input": {
+                    "text": "services list"
+                  }
+                }
+              },
+              {
+                "label": "Bye",
+                "value": {
+                  "input": {
+                    "text": "Bye"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1615979724630",
+      "conditions": "$webhook_result_2",
+      "dialog_node": "response_5_1615979838170",
+      "previous_sibling": "node_6_1615982509779"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<? $issue=null ?>"
+              },
+              {
+                "text": "Prompting you to choose the service"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1615974158351",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1615969429606"
+      },
+      "conditions": "@actionOption:(service list)",
+      "dialog_node": "response_6_1615974243824"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Name: $webhook_result_1.Name"
+              },
+              {
+                "text": "Description: $webhook_result_1.Description"
+              },
+              {
+                "text": "Possible Symptoms: $webhook_result_1.PossibleSymptoms"
+              },
+              {
+                "text": "Treatment: $webhook_result_1.TreatmentDescription"
+              },
+              {
+                "text": "Medical Condition: $webhook_result_1.MedicalCondition"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Action List",
+            "options": [
+              {
+                "label": "Get information about another health issue",
+                "value": {
+                  "input": {
+                    "text": "issue again"
+                  }
+                }
+              },
+              {
+                "label": "Go back to the services list",
+                "value": {
+                  "input": {
+                    "text": "services list"
+                  }
+                }
+              },
+              {
+                "label": "Bye",
+                "value": {
+                  "input": {
+                    "text": "Bye"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1615969443212",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_7_1615970714478",
+      "previous_sibling": "node_8_1615974158351"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry, I encountered an error"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1615969443212",
+      "conditions": "anything_else",
+      "dialog_node": "response_9_1615970716978",
+      "previous_sibling": "response_7_1615970714478"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_4_1615979724630",
+      "conditions": "anything_else",
+      "dialog_node": "response_9_1615979841252",
+      "previous_sibling": "response_5_1615979838170"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1615976557581",
+      "variable": "$symptoms3",
+      "dialog_node": "slot_3_1615979168103",
+      "previous_sibling": "slot_8_1615978744577"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1615976557581",
+      "variable": "$gender",
+      "dialog_node": "slot_5_1615976645306",
+      "previous_sibling": "handler_4_1615978556347"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1615976557581",
+      "variable": "$yearOfBirth",
+      "dialog_node": "slot_6_1615977383617",
+      "previous_sibling": "slot_5_1615976645306"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1615969443212",
+      "variable": "$issue",
+      "dialog_node": "slot_7_1615969737539",
+      "previous_sibling": "response_9_1615970716978"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1615976557581",
+      "variable": "$symptoms2",
+      "dialog_node": "slot_8_1615978744577",
+      "previous_sibling": "slot_9_1615977881612"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1615976557581",
+      "variable": "$symptoms1",
+      "dialog_node": "slot_9_1615977881612",
+      "previous_sibling": "slot_6_1615977383617"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "My first skill",
+  "language": "en",
+  "description": ""
+}
